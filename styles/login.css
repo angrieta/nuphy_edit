@@ -1,0 +1,111 @@
+/* ====================================↓main 시작 */
+main {width: 100%;}
+main .login{
+    width: max-content;
+    margin: 0 auto;
+    padding: 200px 0;
+}
+main .login h2{
+    font-weight: 600;
+    font-size:2.5rem;
+    padding-bottom: 60px;
+    text-align: center;
+}
+main .login .login_contents{
+    text-align: center;
+}
+main .login .login_contents > p{
+    font-size: 15px;
+    font-weight: 500;
+    text-align:start;
+    padding-bottom: 8px;
+}
+main .login .login_contents label{}
+main .login .login_contents label input{
+    width: 400px;
+    height: 48px;
+    border: 1px solid #ddd;
+    padding-left: 10px;
+}
+main .login .login_contents .pw{padding-top: 30px;}
+main .login .login_contents .simple_menu{
+    padding-top: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+main .login .login_contents .simple_menu .auto_login{}
+main .login .login_contents .simple_menu .auto_login label{
+    background-image: url(../images/login/check_off.png);
+    background-repeat: no-repeat;
+}
+main .login .login_contents .simple_menu .auto_login label span{
+    margin-left: 23px;
+    font-size: 0.9375rem;
+    font-weight: 500;
+}
+main .login .login_contents .simple_menu .right_login{}
+main .login .login_contents .simple_menu .right_login a:last-child{border-right: 0;}
+main .login .login_contents .simple_menu .right_login a{
+    padding: 0 5px;
+    font-size:0.875rem;
+    border-right: 1px solid #222;
+}
+main .login .login_contents .login_btn{
+    display: block;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    font-size:1.25rem;
+    padding: 15px 0;
+    margin: 30px 0;
+}
+main .login .login_contents .simple_login{
+    display: flex;
+    justify-content: space-between;
+}
+main .login .login_contents .simple_login .kakao_btn{
+    width: 195px;
+    display: flex;
+    padding: 15px 0px;
+    justify-content: center;
+    border: 1px solid #ddd;
+}
+main .login .login_contents .simple_login .kakao_btn span{
+    font-size:0.875rem;
+    width: 120px;
+    align-content: center;
+}
+main .login .login_contents .simple_login .kakao_btn img{}
+main .login .login_contents .simple_login .naver_btn{
+    display: flex;
+    padding: 15px 0px;
+    justify-content: center;
+    width: 195px;
+    border: 1px solid #ddd;
+}
+main .login .login_contents .simple_login .naver_btn img{}
+main .login .login_contents .simple_login .naver_btn span{
+    font-size:0.875rem;
+    width: 120px;
+    align-content: center;
+}
+
+main .login .login_contents .sign_in {
+}
+main .login .login_contents .sign_in span {
+    font-size: 0.8125rem;
+    color: #9a9a9a;
+    text-align: start;
+    display: block;
+    margin: 30px 0 8px 0;
+}
+main .login .login_contents .sign_in a {
+    display: block;
+    font-size:1.25rem;
+    font-weight: 500;
+    padding: 15px 0;
+    border: 1px solid #ddd;
+}
+
+
+/* ====================================↑main 종료 */

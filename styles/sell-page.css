@@ -1,0 +1,300 @@
+main{
+    width: 100%;
+}
+main .sell_container{
+    justify-content:space-between;
+    padding: 120px 80px ;
+    display: flex;
+    max-width: 1680px;
+    margin: 0 auto;
+    border-bottom: 1px solid #DDDDDD;
+}
+main .left_contents{
+    width: 55%;
+}
+main .sell_container .sell_bg{
+}
+main .sell_container .sell_bg  swiper-slide img{
+    width: 100%;
+}
+main .sell_container .sell_bg .main_bg img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%
+}
+main .sell_container .sell_bg .slide2 img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%
+}
+main .sell_container .sell_bg .slide3 img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%
+}
+main .sell_container .sell_bg .slide4 img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%
+}
+main .sell_container .sell_bg .slide5 img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+main .sell_container .btm_contents {}
+main .sell_container .btm_contents .sub_bg {
+    width: 90%;
+    height: 110px;
+    padding-top: 20px;
+}
+main .sell_container .btm_contents .sub_bg .swiper-wrapper {}
+main .sell_container .btm_contents .sub_bg .swoper-slide {
+}
+main .sell_container .btm_contents .sub_bg .slide1,
+main .sell_container .btm_contents .sub_bg .slide6{
+    background-image: url(../images/sell_page/item_002.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main .sell_container .btm_contents .sub_bg .slide2,
+main .sell_container .btm_contents .sub_bg .slide7{
+    background-image: url(../images/sell_page/item_001.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main .sell_container .btm_contents .sub_bg .slide3,
+main .sell_container .btm_contents .sub_bg .slide8{
+    background-image: url(../images/sell_page/item_003.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main .sell_container .btm_contents .sub_bg .slide4, 
+main .sell_container .btm_contents .sub_bg .slide9 {
+    background-image: url(../images/sell_page/item_004.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main .sell_container .btm_contents .sub_bg .slide5,
+main .sell_container .btm_contents .sub_bg .slide10 {
+    background-image: url(../images/sell_page/item_005.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main .sell_container .btm_contents .sub_bg{}
+main .sell_container .slide_bnr_btn{
+    position: relative; bottom: 45px;
+}
+main .sell_container .swiper-button-next{
+    transform: scale(0.5); right: 0;
+    
+}
+main .sell_container .swiper-button-prev{
+    transform: scale(0.5); left: 0;
+}
+
+main .right_contents{
+    width: 40%;
+    align-content: start;
+}
+main .right_contents .main_contents{
+    width: 100%;
+    margin: 0 auto;
+}
+main .right_contents .main_contents .text{}
+main .right_contents .main_contents .text h2{
+    font-weight: 700;
+    font-size: 2rem;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #C9C9C9;
+    padding-top: 80px;
+}
+main .right_contents .main_contents .text .info_aria{}
+main .right_contents .main_contents .text .info_aria .text_aria{
+    justify-content: space-between;
+    margin-top: 20px;
+}
+main .right_contents .main_contents .text .info_aria .text_aria p:nth-child(3){
+    border-bottom: 1px solid #C9C9C9;
+}
+main .right_contents .main_contents .text .info_aria .text_aria p{
+    display: flex;
+    justify-content: space-between; 
+    padding-bottom: 30px;
+}
+main .right_contents .main_contents .text .info_aria .text_aria .main_text{
+    font-size: 1.125rem;
+    color: #5F5F5F;
+}
+main .right_contents .main_contents .text .info_aria .text_aria p del{
+    font-size: 1.25rem;
+    color: #A5A5A5;
+}
+main .right_contents .main_contents .text .info_aria .text_aria p em{
+    font-size: 1.25rem; font-weight: 600; margin-left: 10px;
+}
+main .right_contents .main_contents .text .info_aria .text_aria p .sale_persent{
+}
+main .right_contents .main_contents .text .info_aria .text_aria .sale{
+    display: flex;
+    justify-content: space-between;
+}
+main .right_contents .main_contents .text .info_aria .text_aria .sale p{}
+main .right_contents .main_contents .text .info_aria .text_aria .sale .main_text{}
+main .right_contents .main_contents .text .info_aria .text_aria .sale .price_text{}
+main .right_contents .main_contents .text .info_aria .text_aria .sale .price_text em{}
+main .right_contents .main_contents .text .info_aria .text_aria .sale .sale_persent{
+    font-size: 1.25rem; font-weight: 600;
+    color: #FF2E31;
+}
+main .right_contents{}
+main .right_contents .select_aria {
+    border-bottom:1px solid #C9C9C9 ;
+}
+main .right_contents .select_aria p{
+    color: #5f5f5f;
+}
+main .right_contents .select_aria .color{
+    display: flex; flex-flow: column nowrap;
+    padding-top: 20px;
+}
+main .right_contents .select_aria .color span{
+    position: relative; top: 10px;
+}
+main .right_contents .select_aria .color select{
+    width: 80%;
+    float: right;
+    padding: 10px 15px;
+    border: 1px solid #E5E5E5;
+}
+main .right_contents .select_aria .select_1{
+    margin-bottom: 20px;
+}
+main .right_contents .select_aria .select_2{
+    margin-bottom: 30px;
+    border: 1px solid #E5E5E5;
+}
+main .right_contents .text > p {
+        color: #8A8A8A;
+        font-weight: 500;
+        font-size: 0.8125rem;
+        margin-top: 20px;
+}
+main .right_contents .total {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .right_contents .total .total_item {
+}
+main .right_contents .total p{
+    padding: 20px 0;
+    font-size: 1.25rem;
+}
+main .right_contents .total p span{font-size: 0.8125rem;}
+main .right_contents .total p em{font-size: 1.25rem;}
+main .right_contents .total p .item_value{}
+
+main .right_contents .buy_btn{}
+main .right_contents .buy_top{
+    display: flex; text-align: center;
+    justify-content: space-between;
+}
+main .right_contents .buy_top .favorite{
+    width: 19%;
+    align-content: center;
+    border: 1px solid #C9C9C9;
+}
+main .right_contents .buy_top .cart_btn {
+    font-size: 1.125rem; font-weight: 600;
+    padding: 20px 0;
+    width: 39%;
+    color: #C9C9C9;
+    border: 1px solid #C9C9C9;
+    display: inline-block;
+}
+main .right_contents .buy_top .buy_btn {
+    font-size: 1.125rem; font-weight: 600;
+    padding: 20px 0;
+    display: inline-block;
+    width: 39%;
+    color: #fff;
+    background-color: #222;
+}
+main .right_contents .buy_btm{
+    padding-top: 34px;
+    display: flex; text-align: center;
+    justify-content: space-between; 
+}
+main .right_contents .buy_btm .kakao_btn span{
+    font-size:1.125rem;
+    font-weight: 600;
+}
+main .right_contents .buy_btm .kakao_btn{
+    width: 49%;
+    background-color: #F9E000;
+    padding: 11.6px 0;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+}
+main .right_contents .buy_btm .kakao_btn img{
+    width: 30px;
+}
+main .right_contents .buy_btm .kakao_btn span{
+    display: inline-block;
+    padding-left: 15px;
+}
+main .right_contents .buy_btm .naver_btn{
+    width: 49%;
+    background-color: #00DE5A;
+    align-content: center;
+}
+main .right_contents .buy_btm .naver_btn img{
+    width: 100px;
+    background-color: #00DE5A;
+}
+main .item_info{
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+}
+main .item_info a{
+    width: 420px; height: 100px;
+    align-content: center;
+}
+main .item_info a{
+    border-bottom:1px solid #ddd;
+}
+main .item_info a:nth-child(1){
+    border-bottom:1px solid #222;
+}
+main .item_info a p{
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+main .item_info a:nth-child(1) p{}
+main .item_info a:nth-child(2) p{
+    border-right:1px solid #ddd;
+    border-left:1px solid #222;
+    color: #ddd;
+}
+main .item_info a:nth-child(3) p{
+    border-right:1px solid #ddd;
+    color: #ddd;
+}
+main .item_info a:nth-child(4) p{
+    color: #ddd;
+}
+
+main .sub_page{
+    padding-top: 120px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+main .sub_page img{
+    width: 100%;
+}
+footer{margin-top: 120px;}

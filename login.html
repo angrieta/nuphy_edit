@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuphy | Login</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/login.css">
+    <link rel="stylesheet" href="./styles/common.css">
+    <script src="./scripts/login.js" defer></script>
+</head>
+<body>
+    <!-- 헤더시작 -->
+    <header>
+        <div class="inner">
+            <div class="right_menu">
+                <a href="#" class="white"><img src="./images/header/white_menu.png" alt="메뉴열기"></a>
+                <a href="#" class="black"><img src="./images/header/black_menu.png" alt="메뉴열기"></a>
+            </div>
+            <h1 class="logo">
+                <a href="./index.html" class="white"><img src="./images/header/white_logo.png" alt="메인페이지로 이동하기"></a>
+                <a href="./index.html" class="black"><img src="./images/header/black_logo.png" alt="메인페이지로 이동하기"></a>
+            </h1>
+            <div class="left_menu">
+                <div class="cs">
+                    <a href="#" class="white">고객지원</a>
+                    <a href="#" class="black">고객지원</a>
+                </div>
+                <div class="search">
+                    <a href="#" class="white"><img src="./images/header/white_search.png" alt=""></a>
+                    <a href="#" class="black"><img src="./images/header/black_search.png" alt=""></a>
+                </div>
+                <div class="mypage">
+                    <a href="./login.html" class="white"><img src="./images/header/white_person.png" alt=""></a>
+                    <a href="./login.html" class="black"><img src="./images/header/black_person.png" alt=""></a>
+                </div>
+                <div class="cart">
+                    <a href="#" class="white"><img src="./images/header/white_local_mall.png" alt=""></a>
+                    <a href="#" class="black"><img src="./images/header/black_mall.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- 헤더종료 -->
+    <main>
+        <!-- 메뉴 라인 시작 -->
+        <div class="header_menu">
+            <a href="#" class="menu_close"><img src="./images/header/close.png" alt=""></a>
+            <ul class="menu_box">
+                <li>
+                    <div class="menu-item"><a href="#">키보드</a><a href="#">+</a></div>
+                    <ul class="submenu">
+                        <li><a href="#">AIR 시리즈</a></li>
+                        <li><a href="#">HALO 시리즈</a></li>
+                        <li><a href="#">GEM 시리즈</a></li>
+                        <li><a href="#">HE 시리즈</a></li>
+                        <li><a href="#">커스텀 시리즈</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="menu-item"><a href="#">스위치</a><a href="#">+</a></div>
+                    <ul class="submenu">
+                        <li><a href="#">LOW PROFILE</a></li>
+                        <li><a href="#">HIGH PROFILE</a></li>
+                        <li><a href="#">LOW MAGNETIC</a></li>
+                        <li><a href="#">HIGH  MAGNETIC</a></li>
+                        <li><a href="#">특주 스위치</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="menu-item"><a href="#">악세서리</a><a href="#">+</a></div>
+                    <ul class="submenu">
+                        <li><a href="#">팜레스트</a></li>
+                        <li><a href="#">키보드 매트</a></li>
+                        <li><a href="#">윤활 도구</a></li>
+                        <li><a href="#">보강판</a></li>
+                        <li><a href="#">케이스</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>    
+        <!-- 메뉴 라인 종료 -->
+        <div class="login">
+            <h2>로그인</h2>
+            <div class="login_contents">
+                <p class="id">ID</p>
+                <label for="user_id">
+                    <input type="text" name="user_id" id="user_id" placeholder="아이디">
+                </label>
+                <p class="pw">PASSWORD</p>
+                <label for="user_pw">
+                    <input type="password" name="user_pw" id="user_pw" placeholder="비밀번호">
+                </label>
+                <div class="simple_menu">
+                    <div class="auto_login">
+                        <label for="auto_login"><span>자동로그인</span></label>
+                        <input type="checkbox" name="auto_login" id="auto_login">
+                    </div>
+                    <div class="right_login">
+                        <a href="#">아이디찾기</a>
+                        <a href="#">비밀번호찾기</a>
+                        <a href="#">비회원 주문조회</a>
+                    </div>
+                </div>
+                <a href="#" class="login_btn">로그인</a>
+                <div class="simple_login">
+                    <a href="#" class="kakao_btn"><img src="./images/login/icon_sns_kakao.png" alt=""><span>카카오 로그인</span></a>
+                    <a href="#" class="naver_btn"><img src="./images/login/icon_sns_naver.png" alt=""><span>네이버 로그인</span></a>
+                </div>
+                <div class="sign_in">
+                    <span>아직 회원이 아니신가요?</span>
+                    <a href="#" class="sign_in_btn">회원가입</a>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+    <!-- footer시작 -->
+    <footer>
+        <div class="btm_border">
+            <div class="top_menu">
+                <a href="#">Nuphy</a>
+                <a href="#">이용약관</a>
+                <a href="#">개인정보처리방침</a>
+                <a href="#">EVENT</a>
+            </div>
+        </div>
+        <div class="btm_container">
+            <div class="left_info">
+                <ul class="nuphy_info">
+                    <h3>Nuphy</h3>
+                    <li>
+                        <span>회사명</span>
+                        <span>Nuphy(주)</span>
+                    </li>
+                    <li>
+                        <span>대표자</span>
+                        <span>이종호</span>
+                    </li>
+                    <li>
+                        <span>주소</span>
+                        <span>인천광역시 서구 중봉대로490 530호</span>
+                    </li>
+                    <li>
+                        <span>개인정보관리책임자</span>
+                        <span>이종호</span>
+                    </li>
+                    <li>
+                        <span>사업자등록번호</span>
+                        <span>254-87-02737</span>
+                    </li>
+                    <li>
+                        <span>통신판매업신고번호</span>
+                        <span>제 2022-인천서구-0964 호</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="center_info">
+                <ul class="cs">
+                    <h3>고객센터</h3>
+                    <li>
+                        <span>TEL</span>
+                        <span>070-8624-5013</span>
+                    </li>
+                    <li>
+                        <span>E-MAIL</span>
+                        <span>cs@ninone.kr</span>
+                    </li>
+                    <li>
+                        <span>상호</span>
+                        <span>주식회사 엔인원</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="right_info">
+                <ul class="bank">
+                    <h3>계좌정보</h3>
+                    <li>
+                        <span>예금주</span>
+                        <span>주식회사 엔인원</span>
+                    </li>
+                    <li>
+                        <span>입금계좌</span>
+                        <span>우리은행 1005-304-321141</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>   
+    <!-- footer시작 -->
+</body>
+
+</html>

@@ -1,0 +1,298 @@
+@media screen and (max-width:1880px) {
+}
+@media screen and (max-width:1400px) {
+}
+@media screen and (max-width:1250px) {
+    header .inner{
+        width: 100%; 
+        padding: 0 80px;
+    }
+    header .inner .left_menu a {
+        padding-left: 15px;
+    }
+    header .inner .right_menu a img{
+        width: 30px;
+    }
+    footer .top_menu {
+        padding: 20px 80px;
+    }
+    footer .btm_container {
+        padding: 0 80px;
+    }
+    main .sell_container {
+        padding: 80px 80px;
+    }
+    main .right_contents .main_contents .text h2 {
+        font-size:1.75rem;
+        padding-bottom: 20px;
+        padding-top: 25px;
+    }
+    main .right_contents .main_contents .text .info_aria .text_aria {
+        margin-top: 20px;
+    }
+    main .right_contents .main_contents .text .info_aria .text_aria p {
+        padding-bottom: 20px;
+    }
+    main .right_contents .main_contents .text .info_aria .text_aria .main_text {
+        font-size: 1rem;
+    }
+    main .right_contents .main_contents .text .info_aria .text_aria p del {
+        font-size:1.125rem;
+    }
+    main .right_contents .main_contents .text .info_aria .text_aria .sale .sale_persent {
+        font-size:1.125rem;
+    }
+    main .right_contents .main_contents .text .info_aria .text_aria p em {
+        font-size:1.125rem;
+    }
+    .text_aria span{font-size:1rem;}
+    main .right_contents .select_aria .color select {
+        font-size:0.875rem;
+    }
+    main .right_contents .select_aria .select_2 {
+        margin-bottom: 20px;
+    }
+    main .right_contents .total p {
+        font-size:1.125rem;
+    }
+    main .right_contents .total p {
+        font-size:1rem;
+    }
+    main .right_contents .buy_btm .naver_btn img{
+        width: 80px;
+    }
+    main .right_contents .buy_top .favorite img{
+        width: 22px;
+    }
+    main .right_contents .buy_top .cart_btn {
+        font-size:1rem;
+    }
+    main .right_contents .buy_top .buy_btn {
+        font-size:1rem;
+    }
+    main .sell_container .btm_contents .sub_bg{
+        height: 85px;
+    }
+    main .item_info a {
+        width: 420px;
+        height: 60px;
+        align-content: center;
+    }
+    .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+        position: absolute; top: 50%; left: 50%;
+    }
+    .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+        position: absolute; top: 50%; right: 50%;
+    }
+    /* 1250시작 판매 aria 종료 */
+}
+/* 1250 end */  
+@media screen and (max-width:940px) {
+    /* =============================2행 반응형디자인(759~900) */
+    header .inner{
+        padding: 0 15px;
+    }
+    main .sell_container {
+        flex-flow: column nowrap;
+        padding: 60px 15px;
+    }
+    main .left_contents {
+        width: 100%;
+    }
+    main .sell_container .btm_contents .sub_bg {
+        height: 140px;
+    }
+    main .right_contents {
+        width: 100%;
+        align-content: start;
+    }
+}        
+/* 769~900 end */
+
+@media screen and (max-width:1100px) {
+    main .right_contents .buy_btm .kakao_btn span {
+        font-size:0.875rem;
+    }
+    main .right_contents .buy_btm .kakao_btn img {
+        width: 22px;
+    }
+    main .right_contents .buy_btm .naver_btn img{
+        width: 60px;
+    }
+}
+    /* 1250시작 판매 aria 종료 */    
+    /* header 종료 */
+    @media screen and (max-width:983px) {
+        header .inner {
+            padding: 0 15px;
+        }
+        header .inner .left_menu .cs a {
+            display: none;
+        }
+        header .inner .right_menu a img {
+            width: 20px;
+        }
+        header .inner .logo a img {
+            width: 100px;
+        }
+        header .inner .left_menu a img {
+            width: 18px;
+        }
+        main .right_contents .main_contents .text h2 {
+            font-size:1.5rem;
+            padding-bottom: 15px;
+            padding-top: 30px;
+        }
+        main .right_contents .main_contents .text .info_aria .text_aria .main_text {
+            font-size: 0.8125rem;
+        }
+        main .right_contents .main_contents .text .info_aria .text_aria {
+            margin-top: 15px;
+        }
+        main .right_contents .main_contents .text .info_aria .text_aria p del {
+            font-size: 0.9375rem;
+        }
+        main .right_contents .main_contents .text .info_aria .text_aria .sale .sale_persent {
+            font-size: 0.9375rem;
+        }
+        main .right_contents .main_contents .text .info_aria .text_aria p em {
+            font-size: 0.9375rem;
+        }
+        main .right_contents .select_aria .color {
+            padding-top: 15px;
+        }
+        .text_aria span {
+            font-size: 0.8125rem;
+        }
+        main .right_contents .select_aria .select_1 {
+            margin-bottom: 15px;
+        }
+        main .right_contents .select_aria .select_2 {
+            margin-bottom: 15px;
+        }
+        main .right_contents .total p{
+            padding: 15px 0;
+        }
+        main .right_contents .select_aria .color span {
+            font-size: 0.8125rem;
+        }
+        main .right_contents .select_aria .color select {
+            font-size:0.75rem
+        }
+        main .right_contents .total p {
+            font-size:0.875rem;
+        }
+        main .right_contents .total p em {
+            font-size: 1.0625rem;
+        }
+        main .right_contents .buy_top .favorite img {
+            width: 18px;
+        }
+        main .right_contents .buy_top .cart_btn {
+            font-size: 0.8125rem;
+            padding: 15px 0;
+        }
+        main .right_contents .buy_top .buy_btn {
+            font-size: 0.8125rem;
+            padding: 15px 0;
+        }
+        main .right_contents .buy_btm .kakao_btn {
+            padding: 8px 0;
+        }
+        main .right_contents .buy_btm {
+            padding-top: 15px;
+        }
+        main .right_contents .buy_btm .kakao_btn span {
+            font-size: 0.6875rem;
+        }
+        main .right_contents .buy_btm .naver_btn img {
+            width: 50px;
+        }
+        main .item_info a:nth-child(1) p {
+            font-size:0.75rem;
+        }
+        main .item_info a p {
+            font-size:0.75rem;
+        }
+        main .sub_page{
+            padding: 100px 15px 0 15px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+    }
+    /* =============================1행 반응형디자인(mobile) */
+@media screen and (max-width:600px){
+    main .sell_container .btm_contents .sub_bg {
+        height: 100px;
+    }
+}
+@media screen and (max-width:940px){
+    .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+        position: absolute; top: -50%;; left: 50%;
+    }
+    .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+        position: absolute; top: -50%; right: 50%;
+    }
+}
+@media screen and (max-width:810px){
+    header {
+        height: 60px;
+    }
+    footer .top_menu {
+        padding: 20px 15px;
+    }
+    footer .btm_container {
+        padding: 0 15px;
+    }
+    footer .btm_container ul{
+        margin-top: 30px;
+    }
+    .aria_bottom{
+        flex-flow: column nowrap;
+        width: 40%;
+    }
+}
+@media screen and (max-width:500px){
+        main .sell_container .btm_contents .sub_bg {
+            height: 80px;
+        }
+        @media screen and (max-width:500px){
+            footer {
+                height: 280px;
+            }
+            footer .top_menu {
+                padding: 10px 15px;
+            }
+            footer .top_menu a {
+                padding-right: 15px;
+            }
+            footer .btm_container ul li span:first-child {
+                width: 70px;
+            }
+            footer .btm_container h3
+            {
+                font-size:0.625rem; 
+                margin-bottom: 10px;
+            }
+            footer .top_menu a {
+                font-size:0.625rem;
+            }
+            footer .btm_container .left_info .nuphy_info span {
+                font-size:0.5rem;
+            }
+            footer .btm_container .center_info .cs span {
+                font-size:0.5rem;
+            }
+            footer .btm_container .right_info .bank span {
+                font-size:0.5rem;
+            }
+            footer .btm_container .right_info .bank {
+                margin-top: 10px;
+            }
+        }
+}
+@media screen and (max-width:440px){
+        main .sell_container .btm_contents .sub_bg {
+            height: 70px;
+        }
+}
