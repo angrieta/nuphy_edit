@@ -1,3 +1,6 @@
+body{
+    width: 100%;
+}
 main{
     width: 100%;
 }
@@ -288,7 +291,12 @@ main .item_info a:nth-child(3) p{
 main .item_info a:nth-child(4) p{
     color: #ddd;
 }
-
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+    color: #222;
+}
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    color: #222;
+}
 main .sub_page{
     padding-top: 120px;
     max-width: 1000px;

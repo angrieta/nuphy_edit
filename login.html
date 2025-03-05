@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="./styles/login.css">
     <link rel="stylesheet" href="./styles/common.css">
     <script src="./scripts/login.js" defer></script>
+    <link rel="stylesheet" href="./styles/login-responsive.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <body>
     <!-- 헤더시작 -->
@@ -43,6 +47,43 @@
     </header>
     <!-- 헤더종료 -->
     <main>
+        <!-- 메뉴 라인 시작 -->
+        <div class="header_menu">
+            <a href="#" class="menu_close"><img src="./images/header/close.png" alt=""></a>
+            <ul class="menu_box">
+                <li>
+                    <div class="menu-item"><a href="#">키보드</a><a href="#">+</a></div>
+                    <ul class="submenu">
+                        <li><a href="#">AIR 시리즈</a></li>
+                        <li><a href="#">HALO 시리즈</a></li>
+                        <li><a href="#">GEM 시리즈</a></li>
+                        <li><a href="#">HE 시리즈</a></li>
+                        <li><a href="#">커스텀 시리즈</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="menu-item"><a href="#">스위치</a><a href="#">+</a></div>
+                    <ul class="submenu">
+                        <li><a href="#">LOW PROFILE</a></li>
+                        <li><a href="#">HIGH PROFILE</a></li>
+                        <li><a href="#">LOW MAGNETIC</a></li>
+                        <li><a href="#">HIGH  MAGNETIC</a></li>
+                        <li><a href="#">특주 스위치</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="menu-item"><a href="#">악세서리</a><a href="#">+</a></div>
+                    <ul class="submenu">
+                        <li><a href="#">팜레스트</a></li>
+                        <li><a href="#">키보드 매트</a></li>
+                        <li><a href="#">윤활 도구</a></li>
+                        <li><a href="#">보강판</a></li>
+                        <li><a href="#">케이스</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>    
+        <!-- 메뉴 라인 종료 -->
         <!-- 메뉴 라인 시작 -->
         <div class="header_menu">
             <a href="#" class="menu_close"><img src="./images/header/close.png" alt=""></a>

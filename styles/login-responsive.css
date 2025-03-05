@@ -1,0 +1,255 @@
+@media screen and (max-width:1880px) {
+}
+@media screen and (max-width:1400px) {
+}
+@media screen and (max-width:1250px) {
+    header .inner{
+        width: 100%; 
+        padding: 0 80px;
+    }
+    header .inner .left_menu a {
+        padding-left: 15px;
+    }
+    header .inner .right_menu a img{
+        width: 30px;
+    }
+    footer .top_menu {
+        padding: 20px 80px;
+    }
+    footer .btm_container {
+        padding: 0 80px;
+    }
+    .header_menu{
+        width: 35%;
+    }
+    .header_menu .menu_box li .menu-item a {
+        font-size: 1.3125rem;
+    }
+    .header_menu .menu_box a {
+        font-size: 0.875rem;
+    }
+    main .login h2 {
+        font-size:2.125rem;
+        padding-bottom: 40px;
+    }
+    main .login .login_contents label input{
+        font-size:0.875rem;
+    }
+    main .login .login_contents > p {
+        font-size: 0.8125rem;
+    }
+    main .login .login_contents .pw {
+        padding-top: 20px;
+    }
+    main .login .login_contents .simple_menu .auto_login label span {
+        margin-left: 23px;
+        font-size: 0.8125rem;
+    }
+    main .login .login_contents .simple_menu .right_login a {
+        font-size:0.75rem;
+    }
+    main .login .login_contents .login_btn {
+        margin: 20px 0;
+        font-size:1.125rem;
+    }
+    main .login .login_contents .simple_login .kakao_btn {
+        padding: 10px 0px;
+    }
+    main .login .login_contents .simple_login .naver_btn{
+        padding: 10px 0px;
+    }
+    main .login .login_contents .sign_in span {
+        margin: 20px 0 8px 0;
+    }
+    main .login .login_contents .simple_login .kakao_btn span{
+        font-size:0.75rem;
+    }
+    main .login .login_contents .simple_login .naver_btn span{
+        font-size:0.75rem;
+    }
+    main .login .login_contents .sign_in a {
+        font-size:1.125rem;
+        border: 1px solid #ddd;
+    }
+    main .login .login_contents .simple_menu .auto_login label{}
+    /* 1250시작 판매 aria 종료 */
+}
+/* 1250 end */  
+@media screen and (max-width:1040px) {
+    main .login .login_contents .simple_menu .right_login a {
+        font-size:0.875rem;
+    }
+    main .login .login_contents .simple_menu .auto_login {
+        display: none;
+    }
+    main .login .login_contents .simple_menu {
+        justify-content: center;
+        width: 100%;
+    }
+    main .login h2 {
+        font-size:1.875rem;
+        padding-bottom: 40px;
+    }
+    main .login .login_contents .simple_login .kakao_btn span {
+        width: 90px;
+    }
+    main .login .login_contents .simple_login .naver_btn span {
+        width: 90px;
+    }
+}
+@media screen and (max-width:880px){
+    main .login .login_contents .simple_menu .right_login a {
+        font-size: 0.6875rem;
+    }
+    main .login .login_contents .simple_login .kakao_btn span {
+        width: 80px;
+    }
+    main .login .login_contents .simple_login .naver_btn span {
+        width: 80px;
+    }
+    main .login .login_contents .simple_login .kakao_btn img {
+        width: 21px;
+    }
+    main .login .login_contents .simple_login .naver_btn img {
+        width: 21px;
+    }
+}        
+/* 769~900 end */
+@media screen and (max-width:940px) {
+    .header_menu{
+        width: 40%;
+    }
+}  
+    /* 1250시작 판매 aria 종료 */    
+    /* header 종료 */
+    @media screen and (max-width:983px) {
+        header .inner {
+            padding: 0 15px;
+        }
+        header .inner .left_menu .cs a {
+            display: none;
+        }
+        header .inner .right_menu a img {
+            width: 20px;
+        }
+        header .inner .logo a img {
+            width: 100px;
+        }
+        header .inner .left_menu a img {
+            width: 18px;
+        }
+    }
+    /* =============================1행 반응형디자인(mobile) */
+@media screen and (max-width:600px){
+    .header_menu .menu_close img {
+        width: 22px;
+    }
+    .header_menu{
+        width: 50%;
+    }
+    .header_menu .menu_box li .menu-item a {
+        font-size: 1.125rem;
+    }
+    .header_menu .menu_box a {
+        font-size: 0.75rem;
+    }
+
+}
+@media screen and (max-width:810px){
+    header {
+        height: 60px;
+    }
+    footer .top_menu {
+        padding: 20px 15px;
+    }
+    footer .btm_container {
+        padding: 0 15px;
+    }
+    footer .btm_container ul{
+        margin-top: 30px;
+    }
+    .aria_bottom{
+        flex-flow: column nowrap;
+        width: 40%;
+    }
+}
+@media screen and (max-width:500px){
+        @media screen and (max-width:500px){
+            footer {
+                height: 280px;
+            }
+            footer .top_menu {
+                padding: 10px 15px;
+            }
+            footer .top_menu a {
+                padding-right: 15px;
+            }
+            footer .btm_container ul li span:first-child {
+                width: 70px;
+            }
+            footer .btm_container h3
+            {
+                font-size:0.625rem; 
+                margin-bottom: 10px;
+            }
+            footer .top_menu a {
+                font-size:0.625rem;
+            }
+            footer .btm_container .left_info .nuphy_info span {
+                font-size:0.5rem;
+            }
+            footer .btm_container .center_info .cs span {
+                font-size:0.5rem;
+            }
+            footer .btm_container .right_info .bank span {
+                font-size:0.5rem;
+            }
+            footer .btm_container .right_info .bank {
+                margin-top: 10px;
+            }
+        }
+}
+@media screen and (max-width:400px){
+    body > * {min-width: 400px;}
+}
+@media screen and (max-width:720px){
+    main .login {
+        max-width: 50%;
+        margin: 0 auto;
+        padding: 80px 0;
+    }
+    main .login h2 {
+        font-size: 1.5rem;
+        padding-bottom: 20px;
+    }
+    main .login .login_contents .pw {
+        padding-top: 10px;
+    }
+    main .login .login_contents label input {
+        font-size:0.5625rem
+    }
+    main .login .login_contents .simple_menu .right_login a {
+        font-size:0.5625rem;
+    }
+    main .login .login_contents label input {
+        height: 34px;
+    }
+    main .login .login_contents .login_btn {
+        font-size:0.875rem;
+    }
+    main .login .login_contents .sign_in a {
+        font-size:0.875rem;
+    }
+    main .login .login_contents .sign_in a {
+        padding: 10px 0;
+    }
+    main .login .login_contents .simple_login .kakao_btn span {
+        width: 60px; font-size: 0.5625rem;
+    }
+    main .login .login_contents .simple_login .naver_btn span {
+        width: 60px; font-size: 0.5625rem;
+    }
+    main .login .login_contents .sign_in span {
+        font-size: 0.6875rem;
+    }
+}

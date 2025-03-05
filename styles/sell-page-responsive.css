@@ -84,6 +84,15 @@
     .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
         position: absolute; top: 50%; right: 50%;
     }
+    .header_menu{
+        width: 35%;
+    }
+    .header_menu .menu_box li .menu-item a {
+        font-size: 1.3125rem;
+    }
+    .header_menu .menu_box a {
+        font-size: 0.875rem;
+    }
     /* 1250시작 판매 aria 종료 */
 }
 /* 1250 end */  
@@ -105,6 +114,9 @@
     main .right_contents {
         width: 100%;
         align-content: start;
+    }
+    .header_menu{
+        width: 40%;
     }
 }        
 /* 769~900 end */
@@ -225,6 +237,31 @@
     main .sell_container .btm_contents .sub_bg {
         height: 100px;
     }
+    .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+        position: absolute;
+        top: 100% !important;
+        left: 70% !important;
+    }
+    .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+        position: absolute;
+        top: 100% !important;
+        right: 70% !important;
+    }
+    .header_menu .menu_close img {
+        width: 22px;
+    }
+    .header_menu{
+        width: 50%;
+    }
+    main .service .service_container a em {
+        margin-bottom: 0px;
+    }
+    .header_menu .menu_box li .menu-item a {
+        font-size: 1.125rem;
+    }
+    .header_menu .menu_box a {
+        font-size: 0.75rem;
+    }
 }
 @media screen and (max-width:940px){
     .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
@@ -295,4 +332,7 @@
         main .sell_container .btm_contents .sub_bg {
             height: 70px;
         }
+}
+@media screen and (max-width:400px){
+    body > * {min-width: 400px;}
 }

@@ -117,20 +117,25 @@ footer .btm_container .right_info .bank span {}
 /* header_menu 시작 */
 main{}
 .header_menu{
-    width: 450px;
+    width: 35%;
     height: 100vh;
-    position: fixed; left: -450px; top: 0;
+    position: fixed; left: -50%; top: 0;
     z-index: 1000;
     background-color: rgba(255, 255, 255)
 }
-.header_menu .menu_close{width: 340px; margin: 0 auto; display: block; padding-top: 50px;}
+.header_menu .menu_close{
+    width:100%; margin: 0 auto; display: block; padding-top: 50px;
+    padding-left: 15px;
+}
 .header_menu .menu_close img{}
 .header_menu .menu_box{
     padding-top: 55px;
-    width: 340px;
+    width: 80%;
     margin: 0 auto;
 }
-.header_menu .menu_box .menu-item{margin-bottom: 22px; display: flex; justify-content: space-between;}
+.header_menu .menu_box .menu-item{
+    margin-bottom: 22px; display: flex; justify-content: space-between;
+}
 .header_menu .menu_box a{}
 .header_menu .menu_box .submenu{padding-bottom: 55px;}
 .header_menu .menu_box li{padding: 0 0 15px 15px;}

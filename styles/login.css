@@ -1,7 +1,7 @@
 /* ====================================↓main 시작 */
 main {width: 100%;}
 main .login{
-    width: max-content;
+    max-width: 30%;
     margin: 0 auto;
     padding: 200px 0;
 }
@@ -15,14 +15,14 @@ main .login .login_contents{
     text-align: center;
 }
 main .login .login_contents > p{
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: 500;
     text-align:start;
     padding-bottom: 8px;
 }
 main .login .login_contents label{}
 main .login .login_contents label input{
-    width: 400px;
+    width: 100%;
     height: 48px;
     border: 1px solid #ddd;
     padding-left: 10px;
@@ -37,6 +37,7 @@ main .login .login_contents .simple_menu .auto_login{}
 main .login .login_contents .simple_menu .auto_login label{
     background-image: url(../images/login/check_off.png);
     background-repeat: no-repeat;
+    background-size: auto;
 }
 main .login .login_contents .simple_menu .auto_login label span{
     margin-left: 23px;
@@ -64,7 +65,7 @@ main .login .login_contents .simple_login{
     justify-content: space-between;
 }
 main .login .login_contents .simple_login .kakao_btn{
-    width: 195px;
+    width: 49%;
     display: flex;
     padding: 15px 0px;
     justify-content: center;
@@ -80,7 +81,7 @@ main .login .login_contents .simple_login .naver_btn{
     display: flex;
     padding: 15px 0px;
     justify-content: center;
-    width: 195px;
+    width: 49%;
     border: 1px solid #ddd;
 }
 main .login .login_contents .simple_login .naver_btn img{}

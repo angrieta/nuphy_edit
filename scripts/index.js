@@ -84,7 +84,7 @@ const categorySlide = new Swiper('.category_area .swiper',{
         1024: {
             slidesPerView: 5,
         },
-        400: {
+        0: {
             slidesPerView: 3,  //1024이하 일때
         }
     }
@@ -102,7 +102,7 @@ var custom = new Swiper(".custom", {
         1024: {
             slidesPerView: 2,
         },
-        400: {
+        0: {
             slidesPerView: 1,  //1024이하 일때
         }
     }
@@ -166,9 +166,9 @@ $('.menu-item').click(function(){
 })
 $('.menu_close').click(function(){
     $('.header_menu')
-    .animate({left:'-450px'},300)
+    .animate({left:'-50%'},300)
 })
 $('.inner .right_menu').click(function(){
     $('.header_menu')
-    .animate({left:'0px'},300)
+    .animate({left:'0'},300)
 })
